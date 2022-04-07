@@ -43,9 +43,10 @@
 }
 /*맨 윗 왼쪽 폰트*/
 .root div li{
-  margin: 10px;
+  margin: 1vh;
   list-style: none;
   color: #854500;
+  font-size: 1em;
 }
 /*맨 윗 오른쪽  폰트*/
 .root div p{
@@ -212,6 +213,11 @@ overflow: auto;
   display: flex;
   
 }
+
+.container div:nth-child(2) p img{
+  width: 20vw;
+  height:20vh;
+}
 /*박스*/
 .container div:nth-child(3) p{
   width: 25vw;
@@ -219,6 +225,10 @@ overflow: auto;
 border: 1px dotted black;
   cursor: pointer;
   margin: 2px;
+}
+.container div:nth-child(3) p img{
+  width: 20vw;
+  height:20vh;
 }
 
 
@@ -344,35 +354,19 @@ border: 1px solid black;
 .event div:nth-child(2){
   width: 100vw;
   height: 50vh;
-  border: 1px solid black;
+ 
 
   display: flex;
   margin-top: 2vw;
 
 }
 /*메인 세번째 박스 왼쪽 박스 요소*/
-.event div:nth-child(2) h6{
-  width: 45%;
-  height: inherit;
-  border: 1px dotted yellow;
-}
-.event div:nth-child(2) div{
-  width: 70%;
+.event div:nth-child(2) p{
+  width: 33.3vw;
   height: inherit;
   border: 1px dotted blue;
-  margin: 0px;
-  display: flex;
- flex-wrap: wrap;
 }
-/*메인 세번째 박스 오른쪽 네개 박스 요소*/
-.event div:nth-child(2) div p{
-  width: 49.6%;
-  height: 50%;
-  border: 1px dotted red;
-  margin: 0px;
-  align-content: center;}
 
-/*메인 세번째 박스 왼쪽 박스 끝 요소*/
 .six{
 width: 40%;
 border: 1px solid green;}
